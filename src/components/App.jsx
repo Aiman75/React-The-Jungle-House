@@ -5,6 +5,7 @@ import Cart from './Cart';
 // import Description from './Description';
 import ShoppingList from './ShoppingList';
 import Footer from './Footer';
+import Video from './Video';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
     return (
         <div>
             <Banner />
+                <Video />
             <div className='lmj-layout-inner'>
                 <Cart cart={cart} updateCart={updateCart} />
                 <ShoppingList cart={cart} updateCart={updateCart} />
